@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>O mnie</title>
+    <link rel="icon" type="image/jpg" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <style>
+      #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+
+      @media (max-width: 991px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+          
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"><img src="img/icon.png"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gettingthere.html" rel="nofollow"
+                >Dojazd</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="i.html">Przebieg szlaku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="b.html">Więcej na temat...</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="about.me">O mnie</a>
+            </li>
+          </ul>    
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div id="intro" class="p-5 text-center bg-light">
+      <h1 class="mb-0 h4 display-3">O mnie</h1>
+    </div>
+  </header>
+
+  <!--Main layout-->
+  <main class="mt-4 mb-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4 mb-4"></div>
+          <div class="col-md-4 mb-4"><p class="imageofme"><img class="img-fluid rounded-circle shadow-2-strong" src="img/ja.jpg" height="350px" width="350px" align="center"></p></div>
+          <div class="col-md-4 mb-4"></div>
+      <div class="row">
+        <div class="col-md-12 mb-4">
+            <p>Cześć!</p>
+            
+            <p>Mam na imię Jakub. Jestem studentem I roku kierunku <b>Game Design &ndash; Projektowanie Narracji Gier Cyfrowych</b>. Na codzień pracuję w korpo, ale prywatnie interesuję się podróżami, zwłaszcza tymi <b>górskimi</b>. 
+                Od 2017 roku jestem <b>przewodnikiem beskidzkim</b> (<i>blacha SKPG nr 1042</i>). Jedną z moich pasji jest wędrowanie <b>szlakami długodystansowymi</b>.</p>
+            <p>Strona ta powstała jako praca zaliczeniowa na studia i opowiada o niebieskim szlaku długodystansowym <b>Tarnów &ndash; Wielki Rogacz</b>, który przeszedłem w sierpniu 2018.</p>
+        </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p style="text-align: center !important">&copy; 2021 Jakub Osiński | Made using <a href="https://mdbootstrap.com/" target="_blank">MDB Bootstrap</a></p>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

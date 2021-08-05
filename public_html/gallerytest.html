@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Galeria</title>
+    <link rel="icon" type="image/jpg" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="gal.css" />
+</head>
+<body>
+  <header>
+    <style>
+      #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+
+      @media (max-width: 991px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+          
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"><img src="img/icon.png"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gettingthere.html" rel="nofollow"
+                >Dojazd</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="i.html">Przebieg szlaku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="b.html">Więcej na temat...</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">O mnie</a>
+            </li>
+          </ul>        
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div id="intro" class="p-5 text-center bg-light">
+      <h1 class="mb-0 h4 display-3">Galeria &ndash; W BUDOWIE</h1>
+    </div>
+  </header>
+
+  <main>
+    <a href="#" data-mdb-toggle="modal" data-mdb-target="#img1"><img src="img/pine.jpg" class="shadow-4-strong thumb hover-zoom"></a>
+    <img src="img/lososinskie.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/baza.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/tower.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/tram.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/rocks.jpg" class="shadow-4-strong thumb hover-zoom">
+    
+        <img src="img/lososinskie.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/baza.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/tower.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/tram.jpg" class="shadow-4-strong thumb hover-zoom">
+    <img src="img/rocks.jpg" class="shadow-4-strong thumb hover-zoom">
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="img1"
+      tabindex="-1"
+      aria-labelledby="img1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="img1Label">Sosna reliktowa</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+              <img src="img/pine.jpg" height="80%" width="80%">
+              <p>sdbfvghjsdfbvghjsdf</p>
+          </div>
+          <div class="modal-footer">
+        <button
+          class="btn btn-primary"
+          data-mdb-target="#exampleModalToggle22"
+          data-mdb-toggle="modal"
+          data-mdb-dismiss="modal"
+          
+        >
+          Poprzednie zdjęcie
+        </button>
+                      <button
+          class="btn btn-primary"
+          data-mdb-target="#exampleModalToggle22"
+          data-mdb-toggle="modal"
+          data-mdb-dismiss="modal"
+          
+        >
+          Następne zdjęcie
+        </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<a
+  class="btn btn-primary"
+  data-mdb-toggle="modal"
+  href="#exampleModalToggle1"
+  role="button"
+  >Open first modal</a
+>
+
+<!-- First modal dialog -->
+<div
+  class="modal fade"
+  id="exampleModalToggle1"
+  aria-hidden="true"
+  aria-labelledby="exampleModalToggleLabel1"
+  tabindex="-1"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel1">Modal 1</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-mdb-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        Show a second modal and hide this one with the button below.
+      </div>
+      <div class="modal-footer">
+        <button
+          class="btn btn-primary"
+          data-mdb-target="#exampleModalToggle22"
+          data-mdb-toggle="modal"
+          data-mdb-dismiss="modal"
+          
+        >
+          Poprzednie
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Second modal dialog -->
+<div
+  class="modal fade"
+  id="exampleModalToggle22"
+  aria-hidden="true"
+  aria-labelledby="exampleModalToggleLabel22"
+  tabindex="-1"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel22">Modal 2</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-mdb-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        Hide this modal and show the first with the button below.
+      </div>
+      <div class="modal-footer">
+        <button
+          class="btn btn-primary"
+          data-mdb-target="#exampleModalToggle1"
+          data-mdb-toggle="modal"
+          data-mdb-dismiss="modal"
+        >
+          First
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  </main>
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p style="text-align: center !important">&copy; 2021 Jakub Osiński | Made using <a href="https://mdbootstrap.com/" target="_blank">MDB Bootstrap</a></p>  
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

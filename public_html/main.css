@@ -1,0 +1,49 @@
+
+
+p {
+    text-align: justify;
+}
+
+.signature {
+    text-align: right !important;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+
+.top_link {
+    text-align: right !important;
+    
+}
+
+.card {
+    width: 300px !important;
+    float: left;
+    margin: 15px;
+}
+
+.imageofme {
+    text-align: center !important;
+}
+
+.leg {
+    color: #607d8b;
+    text-align: center !important;
+}
+img {
+    max-height: 800px;
+}
+
+.text_bg {
+    background-color: black; 
+    opacity: 60%;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white !important;
+}
